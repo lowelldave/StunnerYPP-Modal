@@ -27,7 +27,6 @@ cancelButtonList.forEach((cancelItem) => {
         const modalDuplicate = document.querySelector('.modal__wrapper.template').cloneNode(true);
     
         modalDuplicate.classList.remove('template');
-        modalDuplicate.style.display = 'flex';
         container.parentNode.insertBefore(modalDuplicate, container.nextSibling);
     
         const currentButton = event.target;
